@@ -50,6 +50,9 @@ const Products = () => {
           <li data-num="3">
             <img src={dry3} alt="AI Generated" className="img-gal" />
           </li>
+          <li data-num="3">
+            <img src={dry3} alt="AI Generated" className="img-gal" />
+          </li>
           <li data-num="2">
             <img src={fresh3} alt="Cat" className="img-gal" />
           </li>

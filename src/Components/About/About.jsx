@@ -9,7 +9,7 @@ const AboutSection = styled.section`
 `;
 
 const Container = styled.div`
-  width: 100%;
+  width: calc(min(76.5rem, 90%));
   overflow:none;
   margin: 0 auto;
   
@@ -57,8 +57,8 @@ const SecTitle = styled.div`
   padding-bottom: 40px;
   .title {
     position: relative;
-    color: #d7a449;
-    font-size: 28px;
+    color: #072a15;
+    font-size: 38px;
     font-weight: 700;
     padding-right: 50px;
     margin-bottom: 2px;
@@ -69,16 +69,16 @@ const SecTitle = styled.div`
       content: '';
       right: 0px;
       bottom: 7px;
-      width: 40px;
-      height: 1px;
-      background-color: #bbbbbb;
+      width: 50px;
+      height: 1.5px;
+      background-color: #072a15;
     }
   }
 `;
 
 const Text = styled.div`
   position: relative;
-  color: #777777;
+  color: #333333;
   font-size: 14.5px;
   line-height: 2em;
   margin-bottom: 40px;
@@ -174,7 +174,7 @@ const OverlayBox = styled.div`
 
 const YearBox = styled.div`
   position: relative;
-  color: #252525;
+  color: #072a15;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.4em;
@@ -195,7 +195,7 @@ const Number = styled.span`
   top: 0px;
   width: 110px;
   height: 110px;
-  color: #d7a449;
+  color: #072a15;
   font-size: 68px;
   font-weight: 700;
   line-height: 105px;
@@ -238,7 +238,7 @@ const About = () => {
               <ImageWrapper>
                 <img src={img} alt="" />
                 <OverlayBox>
-                  <YearBox><Number>6</Number>Years <br /> Experience <br /> Working</YearBox>
+                  <YearBox><Number>16</Number>Years <br /> Experience <br /> Working</YearBox>
                 </OverlayBox>
               </ImageWrapper>
             </ImageInnerColumn>

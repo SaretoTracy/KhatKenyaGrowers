@@ -1,5 +1,5 @@
 .form-container {
-  max-width: 850px;
+  width: calc(min(76.5rem, 90%));
   margin: 0 auto;
   padding: 20px;
   background-color: #f5f5f5;
@@ -8,11 +8,23 @@
 }
 
 .form-title {
-  font-size: 24px;
-  font-weight: bold;
+  position: relative;
   color: #072a15;
-  margin-bottom: 20px;
-  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  padding-right: 50px;
+  margin-bottom: 2px;
+  display: inline-block;
+  text-transform: capitalize;
+  &:before {
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: 7px;
+    width: 50px;
+    height: 1.5px;
+    background-color: #072a15;
+  }
 }
 p{
   text-align: center;
