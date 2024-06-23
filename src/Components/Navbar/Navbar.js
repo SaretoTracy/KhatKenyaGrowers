@@ -104,6 +104,9 @@ const MenuLink = styled(Link)`
     text-decoration: none;
     transform: scale(1.1);
   }
+    i{
+    color: #ffd700;
+    }
 
   @media (max-width: 768px) {
     padding: 0.5rem 0;

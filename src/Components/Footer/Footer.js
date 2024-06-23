@@ -91,7 +91,7 @@ const Column = styled.div`
 `;
 
 const Title = styled.h6`
-  color: #E4E931;
+  color: #ffd700;
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 5px;
@@ -116,13 +116,13 @@ const FooterLink = styled.a`
   transition: color 0.3s;
 
   &:hover {
-    color: #E4E931;
+    color: #ffd700;
     text-decoration: none;
   }
 `;
 
 const Divider = styled.hr`
-  border-top-color:#E4E931;
+  border-top-color:#ffd700;
   opacity: 0.5;
 `;
 
@@ -180,7 +180,7 @@ const SocialIcon = styled.a`
 
   &:hover {
     
-    background-color: #E4E931;
+    background-color: #ffd700;
   }
 
 `;
