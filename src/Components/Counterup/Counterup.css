@@ -1,0 +1,29 @@
+.stats {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Make it responsive */
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem; /* Add some margin for spacing in smaller screens */
+  }
+  
+  .statCount {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .statPlus {
+    color: orange;
+  }
+  
+  .statText {
+    margin-left: 1rem;
+  }
+  

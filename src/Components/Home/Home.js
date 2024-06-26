@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import img from "/home/developer/khat/src/assets/khat.jpg";
-
+import CountUp from 'react-countup';
+import './Home.css'
 const AboutSection = styled.section`
   position: relative;
   padding: 120px 0px;
@@ -9,7 +10,7 @@ const AboutSection = styled.section`
 `;
 
 const Container = styled.div`
-  width: calc(min(76.5rem, 90%));
+ 
   overflow:none;
   margin: 0 auto;
   
@@ -54,7 +55,7 @@ const InnerColumn = styled.div`
 
 const SecTitle = styled.div`
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   .title {
     position: relative;
     color: #072a15;
@@ -73,7 +74,7 @@ const Text = styled.div`
   color: #333333;
   font-size: 14.5px;
   line-height: 2em;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 `;
 
 
@@ -123,7 +124,9 @@ const ImageWrapper = styled.div`
   overflow:hidden;
   img {
     position: relative;
-    width: 85%;
+    width: 100%;
+    height: 280px;
+    border-radius:5% ;
     display: block;
   }
   &:before {
@@ -221,10 +224,11 @@ const Herosection = () => {
                 <div className="title">KENYA KHAT GROWERS LTD.</div>
                
               </SecTitle>
-              <Text>we are dedicated to cultivating the finest khat leaves, delivering exceptional quality and freshness directly from our farms to your doorstep. Nestled in the heart of fertile lands, our khat is grown with meticulous care, adhering to sustainable practices that honor both the environment and our rich agricultural heritage.
-              Discover the vibrant tradition and unparalleled excellence of our khat, and experience the difference that passion and expertise bring to every leaf.</Text>
+              <Text>We cultivate premium khat leaves with exceptional quality and freshness, delivered directly from our farms to your doorstep. Grown in fertile lands with meticulous care and sustainable practices, our khat honors the environment and our agricultural heritage. Experience the vibrant tradition and unmatched excellence of our khat, where passion and expertise shine in every leaf.</Text>
               
+    
             </InnerColumn>
+           
           </Column>
           <Column>
             <ImageInnerColumn data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -238,6 +242,31 @@ const Herosection = () => {
           </Column>
         </Row>
       </Container>
+      <div className="stats">
+            <div className="stat">
+        <span className="statCount">
+          <CountUp start={1} end={100} duration={4} />
+          <span className="statPlus">k+</span>
+        </span>
+        <p className="statText">Satisfied Customers</p>
+      </div>
+      <div className="stat">
+        <span className="statCount">
+          <CountUp start={1} end={99} duration={4} />
+          <span className="statPlus">%</span>
+        </span>
+        <p className="statText">Quality Rating</p>
+      </div>
+      <div className="stat">
+        <span className="statCount">
+          <CountUp start={1} end={24} duration={4} />
+          <span className="statPlus">/</span>
+          <CountUp start={1} end={7} duration={4} />
+          <span className="statPlus">+</span>
+        </span>
+        <p className="statText">Khat Support</p>
+      </div>
+    </div>
     </AboutSection>
   );
 }

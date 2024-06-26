@@ -1,0 +1,35 @@
+.stats {
+    /* margin-top: 1rem; */
+    width: 100%;
+    display: flex;
+   
+    overflow: hidden;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Make it responsive */
+  }
+  
+  .stat {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+     /* Add some margin for spacing in smaller screens */
+  }
+  
+  .statCount {
+    font-size: 24px;
+    display: flex;
+    color: #072A15;
+    font-weight: 600;
+    /* align-items: center; */
+  }
+  
+  .statPlus {
+    color: #072A15;
+  }
+  
+  .statText {
+   color: #333333;
+   font-size: 15px;
+  }
+  
