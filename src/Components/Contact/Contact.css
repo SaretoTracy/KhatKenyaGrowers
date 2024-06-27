@@ -1,15 +1,14 @@
-.form-container {
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: calc(min(76.5rem, 90%));
   margin: 0 auto;
-  padding: 20px;
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .form-title {
   position: relative;
-  color: #072a15;
+  color: #ffd700;
   font-size: 38px;
   font-weight: 700;
   padding-right: 50px;
@@ -23,11 +22,11 @@
     bottom: 7px;
     width: 50px;
     height: 1.5px;
-    background-color: #072a15;
+    background-color: #ffd700;
   }
 }
 p{
-  text-align: center;
+  text-align: left;
 }
 form{
  padding-right: 2rem;
@@ -35,9 +34,19 @@ form{
 }
 .infobox{
   padding-left: 1.5rem;
+  padding-right: 2.5rem;
+  width: 50%;
+  background-color: #072a15;     
+  color: #fff;                                                                                                                                                                                                                       
+}
+.infobox h2{
+  color: #ffd700;
 }
 .list-info{
 line-height: 4rem;
+}
+.formbox{
+  width: 45%;
 }
 .form-group {
   margin-bottom: 15px;
@@ -53,7 +62,7 @@ line-height: 4rem;
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #072a15;
   border-radius: 4px;
 }
 
@@ -74,13 +83,9 @@ line-height: 4rem;
 }
 
 .form-group button:hover {
-  background-color: #064011; /* Darken slightly on hover */
+  color: #ffd700; /* Darken slightly on hover */
 }
-.contact {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 .social-icon-four {
   display: flex;
   flex-wrap: wrap;
@@ -91,14 +96,16 @@ li, ul {
   padding: 0;
   margin: 0;
 }
-
+.fas{
+  color: #ffd700;
+}
 .social-icon-four li {
   margin-right: 18px;
   display: inline-block;
 }
 
 .social-icon-four li.follow {
-  color: #072a15;;
+  color: white;
   font-weight: 600;
   font-size: 24px;
   display: block;
@@ -107,12 +114,12 @@ li, ul {
 
 .social-icon-four li a {
   font-size: 20px;
-  color: #072a15;;
+  color: #ffd700;
   transition: all .3s ease;
 }
 
 .social-icon-four li a:hover {
-  color: #222;
+  color: white;
 }
 .form-status {
   text-align: center;

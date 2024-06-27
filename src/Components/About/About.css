@@ -21,30 +21,24 @@
   .responsive-container-block {
     min-height: 75px;
     height: fit-content;
-    width: 100%;
+    
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    padding-left: 26px;
+   
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
-  
+    
     margin-left: auto;
     justify-content: flex-start;
   }
   
   .responsive-container-block.bigContainer {
-    padding-top: 70px;
-    padding-right: 50px;
-    padding-bottom: 0px;
- 
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
+    
+    width: calc(min(76.5rem, 90%));
   }
   
   .responsive-container-block.Container {
