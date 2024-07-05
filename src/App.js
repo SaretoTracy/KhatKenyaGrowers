@@ -1,8 +1,9 @@
 
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-import Navbar from './Components/Navbar/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Nav from './Components/Nav/Nav';
 
 import Service from './Components/Service';
 import Products from './Components/Products';
@@ -14,7 +15,8 @@ import About from './Components/About/About';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Nav />
+      
       <main>
         <Routes>
           <Route path="/" element={<Landing />} />
