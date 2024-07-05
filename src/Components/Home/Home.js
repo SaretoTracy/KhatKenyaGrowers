@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 import './Home.css'
 const AboutSection = styled.section`
   position: relative;
-  padding: 120px 0px;
+ width: calc(min(76.5rem, 90%));
   margin: 0 auto;
 `;
 

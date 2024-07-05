@@ -26,15 +26,15 @@ const Service = () => {
 								/>
 							</div>
 							<div className="icon">
-								<a
-									href="#"
+								<div
 									className="iconBox"
 								>
 									<span className="material-symbols-outlined">
 										arrow_outward
 									</span>
-								</a>
+								
 							</div>
+						</div>
 						</div>
 					</div>
 					<div className="content">
@@ -71,16 +71,16 @@ const Service = () => {
 								/>
 							</div>
 							<div className="icon">
-								<a
-									href="#"
+								<div
 									className="iconBox"
 								>
 									<span className="material-symbols-outlined">
 										arrow_outward
 									</span>
-								</a>
+								
 							</div>
 						</div>
+					</div>
 					</div>
 					<div className="content">
 						<h3>Fresh Khat</h3>
@@ -102,6 +102,7 @@ const Service = () => {
 							</li>
 						</ul>
 					</div>
+				
 				</div>
 				<div className="card">
 					<div
@@ -116,16 +117,17 @@ const Service = () => {
 								/>
 							</div>
 							<div className="icon">
-								<a
-									href="#"
+								<div
+									
 									className="iconBox"
 								>
 									<span className="material-symbols-outlined">
 										arrow_outward
 									</span>
-								</a>
+								
 							</div>
 						</div>
+					</div>
 					</div>
 					<div className="content">
 						<h3>Dry Khat</h3>
@@ -150,8 +152,10 @@ const Service = () => {
 							</li>
 						</ul>
 					</div>
-				</div>
+			
 			</div>
+			</div>
+		
 		</section>
 	);
 };

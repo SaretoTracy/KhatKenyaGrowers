@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import logo from '/home/developer/khat/src/assets/logo.jpeg'
+import logo from '/home/developer/khat/src/assets/logo.jpeg';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,23 +11,28 @@ const Navbar = () => {
   };
 
   return (
-    <Nav>
-      <Logo href="/">
-        <img src={logo} alt="Khat Marketing" />
-      </Logo>
-      <Hamburger onClick={toggleMenu}>
-        <span />
-        <span />
-        <span />
-      </Hamburger>
-      <Menu isOpen={isOpen}>
-        <MenuLink to="/"><i class="fa fa-home" aria-hidden="true"></i>Home</MenuLink>
-        <MenuLink to="/about"><i class="fa fa-briefcase" aria-hidden="true"></i>About</MenuLink>
-        <MenuLink to="/services"><i class="fa fa-truck" aria-hidden="true"></i>Services</MenuLink>
-        <MenuLink to="/products"><i class="fa fa-leaf" aria-hidden="true"></i>Products</MenuLink>
-        <MenuLink to="/contact"><i class="fa fa-address-book" aria-hidden="true"></i>Contact</MenuLink>
-      </Menu>
-    </Nav>
+    <>
+      <Nav>
+        <Logo href="/">
+          <img src={logo} alt="Khat Marketing" />
+        </Logo>
+        <Hamburger onClick={toggleMenu}>
+          <span />
+          <span />
+          <span />
+        </Hamburger>
+        <Menu isOpen={isOpen}>
+          <MenuLink to="/"><i className="fa fa-home" aria-hidden="true"></i>Home</MenuLink>
+          <MenuLink to="/about"><i className="fa fa-briefcase" aria-hidden="true"></i>About</MenuLink>
+          <MenuLink to="/services"><i className="fa fa-truck" aria-hidden="true"></i>Services</MenuLink>
+          <MenuLink to="/products"><i className="fa fa-leaf" aria-hidden="true"></i>Products</MenuLink>
+          <MenuLink to="/contact"><i className="fa fa-address-book" aria-hidden="true"></i>Contact</MenuLink>
+        </Menu>
+      </Nav>
+      <Main>
+        {/* Other components go here */}
+      </Main>
+    </>
   );
 };
 
@@ -37,6 +43,7 @@ const Nav = styled.nav`
   width: 100%;
   top: 0;
   left: 0;
+  height: 60px; /* Define the height of the navbar */
   padding: 0 0.8rem;
   display: flex;
   justify-content: space-between;
@@ -70,7 +77,6 @@ const Hamburger = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
-   
   }
 `;
 
@@ -104,11 +110,16 @@ const MenuLink = styled(Link)`
     text-decoration: none;
     transform: scale(1.1);
   }
-    i{
+  i{
     color: #ffd700;
-    }
+  }
 
   @media (max-width: 768px) {
     padding: 0.5rem 0;
   }
+`;
+
+const Main = styled.main`
+  margin-top: 60px; /* Equal to the height of the navbar */
+  padding: 1rem;
 `;
