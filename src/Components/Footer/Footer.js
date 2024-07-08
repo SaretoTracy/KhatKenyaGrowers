@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'; // Ensure you import the updated CSS
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="footer-section">
@@ -16,7 +16,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <div className="footer-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut consectetur adipisicing elit, Lorem ipsum dolor sit amet.</p>
+                  <p>Our commitment to excellence shines through as we harvest the spirit of khat, bringing you the pure growth and pure energy that have been cherished for generations. </p>
                 </div>
                 
               </div>
@@ -27,11 +27,11 @@ const Footer = () => {
                   <h3>Useful Links</h3>
                 </div>
                 <ul>
-                  <li><a href="#">Home</a></li>
+                  <li><Link className="nav-link" to="/about" >About</Link></li>
                 
-                  <li><a href="#">Services</a></li>
+                  <li><Link className="nav-link" to="/services" >Service</Link></li>
                  
-                  <li><a href="#">Contact</a></li>
+                  <li><Link className="nav-link" to="/contact" >Contact</Link></li>
                   
                 </ul>
               </div>
@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
               <div className="footer-menu">
                 <ul>
-                  <li><a href="#">Home</a></li>
+                  <li><Link className="nav-link" to="/" >Home</Link></li>
                   <li><a href="#">Terms</a></li>
                   <li><a href="#">Privacy</a></li>
                   <li><a href="#">Policy</a></li>
