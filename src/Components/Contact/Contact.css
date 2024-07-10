@@ -1,5 +1,7 @@
 .contact {
   display: flex;
+  padding-top: 2em;
+  padding-bottom: 2em;
   flex-wrap: wrap;
   justify-content: space-between;
   width: calc(min(76.5rem, 90%));

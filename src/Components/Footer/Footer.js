@@ -1,5 +1,6 @@
 import React from 'react';
-import './Footer.css'; // Ensure you import the updated CSS
+import './Footer.css'; 
+import logo from '/home/developer/khat/src/assets/logo.jpeg';
 import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
@@ -11,8 +12,8 @@ const Footer = () => {
             <div className="col-xl-4 col-lg-4 mb-50">
               <div className="footer-widget">
                 <div className="footer-logo">
-                  <a href="index.html">
-                    <img src="https://i.ibb.co/QDy827D/ak-logo.png" className="img-fluid" alt="logo" />
+                  <a href="#">
+                    <img src={logo} className="img-fluid" alt="logo" />
                   </a>
                 </div>
                 <div className="footer-text">

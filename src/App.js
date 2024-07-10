@@ -11,10 +11,12 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer/Footer';
 import Landing from './Components/Landing/Landing';
 import About from './Components/About/About';
+import ScrollToTop from './Components/ScrollToTop'
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Nav />
       
       <main>

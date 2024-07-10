@@ -44,13 +44,13 @@ const Service = () => {
 						</p>
 						<ul>
 							<li
-								style={{ "--clr-tag": "#d3b19a" }}
+								style={{ "--clr-tag": "#18271D" }}
 								className="branding"
 							>
 								Natured
 							</li>
 							<li
-								style={{ "--clr-tag": "#70b3b1" }}
+								style={{ "--clr-tag": "#45604F" }}
 								className="packaging"
 							>
 								Robust Growth
@@ -89,14 +89,14 @@ const Service = () => {
 						</p>
 						<ul>
 							<li
-								style={{ "--clr-tag": "#d3b19a" }}
+								style={{ "--clr-tag": "#18271D" }}
 								className="branding"
 							>
 								Fresh
 							</li>
 							<li
-								style={{ "--clr-tag": "#d05fa2" }}
-								className="marketing"
+								style={{ "--clr-tag": "#45604F" }}
+								className="packaging"
 							>
 								Quality
 							</li>
@@ -139,13 +139,13 @@ const Service = () => {
 						</p>
 						<ul>
 							<li
-								style={{ "--clr-tag": "#d3b19a" }}
+								style={{ "--clr-tag": "#18271D" }}
 								className="branding"
 							>
 								Preserved
 							</li>
 							<li
-								style={{ "--clr-tag": "#70b3b1" }}
+								style={{ "--clr-tag": "#45604F" }}
 								className="packaging"
 							>
 								Natural
