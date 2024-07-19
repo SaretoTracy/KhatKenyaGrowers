@@ -5,6 +5,7 @@ import Service from '../Service'
 import Products from '../Products'
 import Contact from '../Contact'
 import FAQ from '../FAQ/FAQ'
+import ContactForm from '../ContactForm/ContactForm'
 
 const Landing = () => {
   return (
@@ -15,7 +16,7 @@ const Landing = () => {
     
     <Products />
     
-    <Contact />
+    <ContactForm />
     <FAQ />
 
     </>

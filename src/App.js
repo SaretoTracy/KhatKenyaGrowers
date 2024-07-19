@@ -7,12 +7,11 @@ import Nav from './Components/Nav/Nav';
 
 import Service from './Components/Service';
 import Products from './Components/Products';
-import Contact from './Components/Contact';
 import Footer from './Components/Footer/Footer';
 import Landing from './Components/Landing/Landing';
 import About from './Components/About/About';
 import ScrollToTop from './Components/ScrollToTop'
-
+import ContactForm from './Components/ContactForm/ContactForm'
 function App() {
   return (
     <Router>
@@ -25,7 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element= {<Service />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<ContactForm />} />
         </Routes>
       </main>
     <Footer />

@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f8f8;
+  color: #072a15;
+ 
+}
+
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 50px;
+  width: calc(min(76.5rem, 90%));
+  margin: 0 auto;
+  border: 1px solid #45604f;
+  border-radius: 10px;
+}
+
+.contact-form, .contact-info {
+ 
+  border-radius: 10px;
+  padding: 20px;
+
+  flex: 1;
+  max-width: 500px;
+}
+.contact-info{
+  line-height: 4em;
+}
+.contact-form h2{
+  position: relative;
+  color: #072a15;
+  font-size: 38px;
+  font-weight: 700;
+  padding-right: 50px;
+  margin-bottom: 2px;
+  display: inline-block;
+  text-transform: capitalize;
+  &:before {
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: 7px;
+    width: 50px;
+    height: 1.5px;
+    background-color: #072a15;
+  }
+}
+.contact-form h2, .contact-info h3 {
+  color: #072a15;
+}
+
+.contact-form p, .contact-info p {
+  margin: 10px 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #072a15;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #072a15;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #06401e;
+}
+
+.social-icon-four {
+  display: flex;
+  flex-wrap: wrap;
+  color: #072a15;
+}
+
+li, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.fas{
+  color: #072a15;
+}
+.social-icon-four li {
+  margin-right: 18px;
+  display: inline-block;
+}
+
+.social-icon-four li.follow {
+  color: #072a15;
+  font-weight: 600;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.social-icon-four li a {
+  font-size: 20px;
+  color: #072a15;
+  transition: all .3s ease;
+}
+
+.social-icon-four li a:hover {
+  color: #06401e;
+}
+
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
