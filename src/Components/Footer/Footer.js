@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'; 
-import logo from '/home/developer/khat/src/assets/logo.jpeg';
+import logo from '../../assets/Khatlogo.png';
 import { Link } from 'react-router-dom';
 const Footer = () => {
   return (

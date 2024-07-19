@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Nav.css';
 import { Link } from 'react-router-dom';
-import logo from '/home/developer/khat/src/assets/logo.jpeg';
+import logo from '../../assets/Khatlogo.png';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);

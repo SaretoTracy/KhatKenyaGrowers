@@ -1,8 +1,8 @@
 import React from "react";
 import "./Service.css";
-import image4 from "/home/developer/khat/src/assets/khat4.jpeg";
-import dry from "/home/developer/khat/src/assets/drykhat.jpeg";
-import image3 from "/home/developer/khat/src/assets/khat3.jpeg";
+import image4 from "../../assets/khat4.jpeg";
+import dry from "../../assets/drykhat.jpeg";
+import image3 from "../../assets/khat3.jpeg";
 
 const Service = () => {
 	return (

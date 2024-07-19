@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import img from "/home/developer/khat/src/assets/khat.jpg";
+import img from "../../assets/khat.jpg";
 import CountUp from 'react-countup';
 import './Home.css'
 const AboutSection = styled.section`
