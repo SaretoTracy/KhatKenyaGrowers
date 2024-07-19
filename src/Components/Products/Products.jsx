@@ -18,14 +18,14 @@ import fresh3 from "/home/developer/khat/src/assets/fresh2.jpeg";
 import fresh4 from "/home/developer/khat/src/assets/fresh3.jpeg";
 import fresh5 from "/home/developer/khat/src/assets/fresh4.jpeg";
 import fresh6 from "/home/developer/khat/src/assets/fresh5.jpeg";
-
+import { Link } from 'react-router-dom';
 const Products = () => {
   return (
     <div className="main-content">
       <div uk-filter="target: .js-filter">
         <h1>Our Products</h1>
         <ul className="uk-navbar-nav">
-          <li className="uk-active" uk-filter-control><a href="#">All</a></li>
+          <li className="uk-active" uk-filter-control><Link className="nav-link" to="/services" >All</Link></li>
           <li uk-filter-control="[data-num='1']"><a href="#">Seedlings</a></li>
           <li uk-filter-control="[data-num='2']"><a href="#">Fresh Khat</a></li>
           <li uk-filter-control="[data-num='3']"><a href="#">Dry Khat</a></li>
